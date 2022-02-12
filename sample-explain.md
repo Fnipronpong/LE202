@@ -203,6 +203,24 @@ Code :
   	server.handleClient();
 	}
 
+#include เป็นคำสั่งที่ใช้อ้างอิงไฟล์ภายนอก เพื่อเรียกใช้ฟังก์ชั่น platformio  รูปแบบการใช้งาน
+
+const char* ssid = "Username" คือ การประกาศสร้างตัวแปรเก็บ Username เครื่อข่าย WiFi ชื่อว่า ssid
+
+const char* password = "Password" คือ การประกาศสร้างตัวแปรเก็บ Password ของเครื่อข่าย WiFi ชื่อว่า password
+
+ESP8266WebServer server(80) คือ เปิด WebServer ที่ port 80
+
+void setup() คือ ฟังก์ชั่นใช้ในการประกาศค่าเริ่มต้น เป็นฟังก์ชั่นที run ครั้งเดียว
+
+Serial.begin() ใช้เพื่อตั้งค่าความเร็วในการสื่อสารเป็นบิตต่อวินาที
+
+WiFi.mode(WIFI_STA); คือ เป็นการตั้งค่า WiFi เป็นโหมดสถานี
+
+WiFi.begin(ssid, pass) คือ สำหรับเชื่อมต่อไวไฟ โดยใช้ชื่อไวไฟ และ รหัสผ่านของเครื่อยข่าย
+
+delay() คือ หน่วงเวลา (ms)
+
 ## Program 06
 
 	Code :
@@ -247,3 +265,24 @@ Code :
 	void loop(void){
   	server.handleClient();
 	}
+
+#include เป็นคำสั่งที่ใช้อ้างอิงไฟล์ภายนอก เพื่อเรียกใช้ฟังก์ชั่น หรือตัวแปรที่มีการสร้างหรือกำหนดไว้ในไฟล์นั้น รูปแบบการใช้งาน
+
+const char* ssid = "Username" คือ การประกาศสร้างตัวแปรเก็บ Username เครื่อข่าย WiFi ชื่อว่า ssid
+
+const char* password = "Password" คือ การประกาศสร้างตัวแปรเก็บ Password ของเครื่อข่าย WiFi ชื่อว่า password
+
+local_ip คือ สำหรับตั้ง IP
+
+gateway คือ สำหรับตั้ง gateway
+
+subnet คือ สำหรับตั้ง subnet
+
+ESP8266WebServer server(80) คือ เปิด WebServer ที่ port 80
+
+WiFi.softAP(ssid,passwaord) คือ ฟังก์ชันสำหรับตั้งค่า Access Point ใช้งานในโหมด AP mode
+
+WiFi.softAPConfig(IPAddress local_ip, IPAddress gateway, IPAddress subnet) คือ ฟังก์ชันสำหรับตั้งค่า IP , gateway , subnet ใน AP mode
+
+delay() คือ หน่วงเวลา (ms)
+
