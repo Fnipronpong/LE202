@@ -62,4 +62,6 @@ Link: https://www.arduitronics.com/product/2850/sipeed-maixduino-for-risc-v-ai-i
 
 ความเร็ว: 2400Mhz - 2483.5Mhz
 
+หน่วยความทรงจำ: 8MB/16MB/128MB
+
 port: USE type-c, Bluetooth 4.2, 24P Camera, FPC connector, ฯลฯ
