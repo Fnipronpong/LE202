@@ -20,13 +20,13 @@
 ## ความสัมพันธ์ของภาษาระดับสูง ( High-level Language) ภาษาแอสเซมบลี ( Assembly Language) ภาษาเครื่อง ( Machine Language) โปรแซสเซสเซอร์ (processor,microcontroller)
 ซึ่งสามารถแสดงความสัมพันธ์ได้ด้วยการเขียนภาษาคร่าวๆ ดังนี้
 ในตอนแรกเราจะเรียนโปรแกรมด้วยภาษา Hight level language ซึ่งเป็นภาษาที่ที่มนุษย์สามารถเข้าใจได้ง่าย ใช้ง่ายและสะดวกต่อการใช้งานหลังจากนั้น Hight level language จะถูกแปลงเป็นภาษาภาษาแอสเซมบลี (Assembly/ Low-level Language) ซึ่งพัฒนามาจากภาษาเครื่อง (Machine language) เพื่อให้ใช้งานได้ง่ายขึ้น แต่อย่างไรก็ตาม compiler จะต้องภาษาที่เราใช้ให้เป็นภาษาเครื่องก่อนเสมอคอมพิวเตอร์จึงจะเข้าใจคำสั่ง ส่งผลให้ Processor หรือ microcontroller ทำงานได้
-# High-Level Language : C++
+### High-Level Language : C++
 ![le202C++](https://user-images.githubusercontent.com/98943486/161714833-9042154a-aad5-41f6-a72d-375eac4168d8.PNG)
-# Assembly: RISC-V rv64gc clang 14.0.0 & Machine Language
+### Assembly: RISC-V rv64gc clang 14.0.0 & Machine Language
 ![le202C++1](https://user-images.githubusercontent.com/98943486/161721658-093712f5-1cbd-411d-bd38-82258828b209.PNG)
-# High-Level Language : C
+### High-Level Language : C
 ![le202C](https://user-images.githubusercontent.com/98943486/161721730-36dea786-0812-4e8a-8ac2-2942a55c17f1.PNG)
-# Assembly: RISC-V rv64gc clang 14.0.0 & Machine Language
+### Assembly: RISC-V rv64gc clang 14.0.0 & Machine Language
 ![le202C1](https://user-images.githubusercontent.com/98943486/161722027-071a52e6-281e-43bf-9a72-a6c2345dac9a.PNG)
 
 
